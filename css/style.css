@@ -118,29 +118,31 @@ header{
   background-color: #21424a;
   cursor: pointer;
 }
-
-.text{
+.login-text{
   position: relative;
-  text-align: center;
-  top: -75px;
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 22px;
   color: white;
+  font-weight: 500;
+  top: -75px;
+  left: 25%;
+  cursor: pointer;
   z-index: 99;
 }
 
-.text .wrapper{
-  display: flex;
-  justify-content: space-around;
+.register-text{
+  position: relative;
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  top: -75px;
+  left: 65%;
+  cursor: pointer;
+  z-index: 99;
 }
 
-.text .wrapper .login-text{
-  width: 50%;
-}
-
-.domain{
-  margin-top: 90px;
-  margin-bottom: 90px;
+.domain{ 
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .domain .wrapper{
@@ -262,6 +264,7 @@ header{
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
   padding-top: 35px;
+  cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
