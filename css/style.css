@@ -591,14 +591,20 @@ b{
 .links-nav a{
   text-decoration: none;
   color: #646464;
+  transition: all 0.1s ease-in-out;
+}
+
+.links-nav a i{
+  transition: all 0.3s ease-in-out;
 }
 
 .links-nav a:hover{
   color: white;
+  
 }
 
 .links-nav a:hover i{
-  margin-right: 10px;
+  transform: translateX(-10px);
 }
 
 .contacts{
