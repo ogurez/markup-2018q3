@@ -422,7 +422,7 @@ header{
   justify-content: space-between
 }
 
-.avatar{
+.avatar img{
   border: 5px solid #bfbfbf;
   border-radius: 50%;
 }
