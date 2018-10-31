@@ -509,7 +509,7 @@ border-top: 120px solid #2fac6c;
   text-align: center;
 }
 
-.icons{
+.function-icon{
   width: 60px;
   height: 60px;
   color: white;
@@ -519,7 +519,11 @@ border-top: 120px solid #2fac6c;
   margin: 0 auto;
 }
 
-.icons i{
+.function-icon:hover{
+  cursor: pointer;
+}
+
+.function-icon i{
   margin-top: 35%;
 }
 
