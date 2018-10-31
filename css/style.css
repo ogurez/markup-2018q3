@@ -423,7 +423,7 @@ header{
   margin-top: 0;
 }
 
-.about-us-contacts{
+.about-us-team{
   padding-left: 150px;
   width: 100%;
   display: flex;
@@ -431,7 +431,7 @@ header{
   text-align: center;
 }
 
-.contact{
+.team-member{
   display: flex;
   flex-direction: column;
   justify-content: space-between
@@ -452,17 +452,17 @@ header{
   line-height: 12px;
 }
 
-.links{
+.team-member-contacts{
   display: flex;
   justify-content: space-around;
   margin-top: -10px;
 }
 
-.links a{
+.team-members-contacts a{
   color: #bfbfbf;
 }
 
-.links a:hover{
+.team-members-contacts a:hover{
   color: #1f89ba;
 }
 
