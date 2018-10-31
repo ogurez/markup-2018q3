@@ -74,7 +74,7 @@ header{
 }
 
 .banner{
-  background: url("../img/header.png") no-repeat center top;
+  background: url("../img/header_bg.png") no-repeat center top;
   height: 630px;
   padding-top: 450px;
   text-align: center;
@@ -239,7 +239,7 @@ header{
 }
 
 .packages-bg{
-  background: url("../img/packages_photo.png") no-repeat center top;
+  background: url("../img/packages_bg.png") no-repeat center top;
   height: 385px;
 }
 
@@ -468,7 +468,7 @@ header{
 
 .comments-bg{
   height: 190px;
-  background: url("../img/comments.png") no-repeat center top;
+  background: url("../img/comments_bg.png") no-repeat center top;
 }
 
 .comments{
@@ -579,7 +579,7 @@ b{
   padding-bottom: 25px;
 }
 
-.links-nav{
+.footer-nav{
   width: 40%;
   margin-left: 0;
   display: flex;
@@ -587,26 +587,26 @@ b{
   border-right: 1px solid #646464;
 }
 
-.links-nav ul{
+.footer-nav ul{
   list-style-type: none;
 }
 
-.links-nav a{
+.footer-nav a{
   text-decoration: none;
   color: #646464;
   transition: all 0.1s ease-in-out;
 }
 
-.links-nav a i{
+.footer-nav a i{
   transition: all 0.3s ease-in-out;
 }
 
-.links-nav a:hover{
+.footer-nav a:hover{
   color: white;
   
 }
 
-.links-nav a:hover i{
+.footer-nav a:hover i{
   transform: translateX(-10px);
 }
 
